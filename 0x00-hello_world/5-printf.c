@@ -1,4 +1,4 @@
-#include <stdi.h>
+#include <stdio.h>
 /**
  * main - a progrom using the printf function
  * Return: 0 (success)
