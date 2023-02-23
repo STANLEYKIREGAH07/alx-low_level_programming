@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 * main - prints the numbers from 1 to 100 followed by
 * but for multiples of three prints fizz instead of the number
@@ -9,8 +10,7 @@ int main(void)
 {
 int i;
 
-for (i = 1; i <= 100; i++)
-
+for (i = 1; i <= 100; i++)i
 {
 	if (i % 3 == 0 && i % 5 != 0)
 	{
