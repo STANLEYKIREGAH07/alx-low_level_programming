@@ -6,8 +6,9 @@
  * Return: string in reverse
  */
 
-void re_string(char *s)
+void rev_string(char *s)
 {
+
 char rv = s[0];
 int c = 0;
 int i;
