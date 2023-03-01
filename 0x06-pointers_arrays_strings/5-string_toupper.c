@@ -1,11 +1,11 @@
 #include "main.h"
 /**
 * string_toupper - change all lowercase to uppercase
-* @n - string to be changed
+* @n: string to be changed
 * Return: n
 */
 
-char *string_toupper(char *)
+char *string_toupper(char *n)
 {
 int i;
 
