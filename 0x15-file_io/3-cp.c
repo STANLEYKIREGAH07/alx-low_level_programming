@@ -45,10 +45,10 @@ x = close(fdd);
 
 /**
  * main - copies the content of a file to another file.
- * @argc: number of argument supplied to the program.
- * @argv: array of pointers to the arguments 
- * Return: 0 on success
- * Description: If the argument count is incorrect - exit code 97.
+ * @argc: number of argument supplied to the program
+* @argv: array of pointers to the arguments
+* * Return: 0 on success
+* Description: If the argument count is incorrect - exit code 97.
  * If file_from does not exist or cannot be read - exit code 98.
  * If file_to cannot be created or written to - exit code 99.
  * If file_to or file_from cannot be closed - exit code 100.
@@ -66,8 +66,8 @@ int main(int argc, char *argv[])
 
 	bufferr = create_buffer(argv[2]);
 	fromm = open(argv[1], O_RDONLY);
-	rr = read(fromm, bufferr, 1024);
- too = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
+rr = read(fromm, bufferr, 1024);
+too = open(argv[2], O_CREAT | O_WRONLY | O_TRUNC, 0664);
 
 	do {
 		if (fromm == -1 || rr == -1)
