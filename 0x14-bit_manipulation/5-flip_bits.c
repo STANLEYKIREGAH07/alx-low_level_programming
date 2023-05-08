@@ -15,7 +15,7 @@ unsigned long int excl = n ^ m;
 
 for (x = 63; x >= 0; x--)
 {
-curr = excl >> i;
+curr = excl >> x;
 if (curr & 1)
 count++;
 }
